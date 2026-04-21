@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ca1b135f-2556-4e84-8f81-b9f7d99fce5a")
 	(paper "A4")
 	(lib_symbols
@@ -9,8 +9,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "K"
 				(at 11.43 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -20,6 +24,8 @@
 			)
 			(property "Value" "FINDER-34.51"
 				(at 11.43 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -29,47 +35,57 @@
 			)
 			(property "Footprint" "Relay_THT:Relay_SPDT_Finder_34.51_Vertical"
 				(at 28.956 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Ultra-slim 1 Pole - 6A SPDT relay"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Single Pole Relay SPDT"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Relay*SPDT*Finder*34.51*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "FINDER-34.51_0_0"
@@ -244,9 +260,63 @@
 			)
 			(symbol "FINDER-34.51_1_1"
 				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -264,7 +334,7 @@
 				(pin passive line
 					(at -5.08 -7.62 90)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,60 +342,6 @@
 						)
 					)
 					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -487,13 +503,17 @@
 		(at 137.16 74.93 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "46657e1e-1de6-48b3-9696-45e3378258bd")
 		(property "Reference" "K1"
 			(at 137.16 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,6 +522,8 @@
 		)
 		(property "Value" "FINDER-34.51"
 			(at 137.16 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,94 +532,108 @@
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Finder_34.51_Vertical"
 			(at 136.144 45.974 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf"
 			(at 137.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ultra-slim 1 Pole - 6A SPDT relay"
 			(at 137.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "12"
-			(uuid "b294a9db-b7d9-49ff-996a-9651771f736d")
+			(uuid "d58e8a40-5a97-46f8-b4ab-a7a36cdfcb77")
 		)
 		(pin "11"
-			(uuid "7eec57c2-361d-4b82-97aa-787afdde2093")
+			(uuid "70691f92-52cf-4b82-8885-e16e0303e49e")
 		)
 		(pin "14"
-			(uuid "a5c0e6c3-ce80-45c7-902d-6655ea7a5ff2")
+			(uuid "32fffc33-a9d3-40cd-9813-e91342834dc8")
 		)
 		(pin "A2"
-			(uuid "ec865f0b-4bb3-458f-9256-9d83f2c0afed")
+			(uuid "d537a438-03ad-4316-a9f2-ceff08e3e4ec")
 		)
 		(pin "A1"
-			(uuid "caeabe3c-5544-4982-af95-9ea9b2d971ad")
+			(uuid "4b00755e-07ee-45b4-b6d1-8c928813aab0")
 		)
 		(instances
 			(project "12x_relay_board"
-				(path "/368b9369-763a-4d55-afda-601efe72464d/0680e9ca-8d29-45f7-b3d2-809e25fe1983"
-					(reference "K3")
-					(unit 1)
-				)
 				(path "/368b9369-763a-4d55-afda-601efe72464d/0afbe8f2-7d66-43fe-9f3b-d7627f160ffe"
 					(reference "K1")
 					(unit 1)
 				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/156d71d8-0628-48fc-a8d3-9119edaea16a"
-					(reference "K6")
-					(unit 1)
-				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/15fced91-c730-42b0-8d16-35d29b984ef1"
-					(reference "K5")
-					(unit 1)
-				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/36d96da2-8e1e-44a2-9877-a01035a5b39f"
-					(reference "K10")
-					(unit 1)
-				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/7972de82-c2ee-43f2-869d-6e44913e962f"
+				(path "/368b9369-763a-4d55-afda-601efe72464d/346bcc97-9ec5-4a5a-a32a-dbef56a6cfeb"
 					(reference "K8")
 					(unit 1)
 				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/9ecdc067-76b2-4061-a699-1ea66e4226c2"
-					(reference "K4")
-					(unit 1)
-				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/b3fb12f2-e1dd-46f1-b171-496427727620"
-					(reference "K7")
-					(unit 1)
-				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/cc0cf724-731b-46ad-bff2-1aa8b49f051c"
+				(path "/368b9369-763a-4d55-afda-601efe72464d/490a603a-d9f1-43c0-8f04-ff4ae19f62c1"
 					(reference "K9")
 					(unit 1)
 				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/e7feb240-38dc-4650-8871-5565c7400f0f"
+				(path "/368b9369-763a-4d55-afda-601efe72464d/5e356880-f412-44b4-be5a-4784cb45dcc5"
+					(reference "K12")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/620c0e66-0d17-405e-9b72-731babd6fe79"
 					(reference "K11")
 					(unit 1)
 				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/f7825897-7ce5-42b5-afe4-cb186cc7752e"
+				(path "/368b9369-763a-4d55-afda-601efe72464d/6b6fb5fd-cb6e-4e80-9412-79d046790480"
+					(reference "K14")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/75ca566b-3798-4d4c-8435-5cd468404556"
+					(reference "K6")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/7f6b5e1c-e425-4c8c-be36-43ea8322e8c6"
+					(reference "K13")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/b7d73237-c72c-4196-ad30-482475eea7c5"
+					(reference "K7")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/bc900a6b-3f21-4538-809a-63c920cb2141"
+					(reference "K4")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/c391dc0f-4a16-4828-8a8f-9e0d2512037f"
+					(reference "K10")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/d6017e09-f0ce-4c83-b521-06c8d79f2e42"
 					(reference "K2")
 					(unit 1)
 				)
-				(path "/368b9369-763a-4d55-afda-601efe72464d/fc509104-4107-4009-acb0-af71efa0b5ef"
-					(reference "K12")
+				(path "/368b9369-763a-4d55-afda-601efe72464d/f8de1ae8-c9cc-4127-8713-2c7891d1d8f9"
+					(reference "K3")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/fea69a16-b9e6-47c1-babb-7c5d04175ea3"
+					(reference "K5")
 					(unit 1)
 				)
 			)

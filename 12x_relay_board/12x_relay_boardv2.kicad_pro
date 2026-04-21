@@ -666,72 +666,64 @@
       {
         "filename": "12x_relay_board.kicad_sch",
         "name": "12x_relay_board",
-        "uuid": "368b9369-763a-4d55-afda-601efe72464d"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "K2-14,J1,J5-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "368b9369-763a-4d55-afda-601efe72464d",
-      "12x_relay_board"
+      "Root"
     ],
     [
       "0afbe8f2-7d66-43fe-9f3b-d7627f160ffe",
       "Relay_channel_1"
     ],
     [
-      "d6017e09-f0ce-4c83-b521-06c8d79f2e42",
+      "f7825897-7ce5-42b5-afe4-cb186cc7752e",
       "Relay_channel_2"
     ],
     [
-      "f8de1ae8-c9cc-4127-8713-2c7891d1d8f9",
+      "0680e9ca-8d29-45f7-b3d2-809e25fe1983",
       "Relay_channel_3"
     ],
     [
-      "bc900a6b-3f21-4538-809a-63c920cb2141",
+      "9ecdc067-76b2-4061-a699-1ea66e4226c2",
       "Relay_channel_4"
     ],
     [
-      "fea69a16-b9e6-47c1-babb-7c5d04175ea3",
+      "15fced91-c730-42b0-8d16-35d29b984ef1",
       "Relay_channel_5"
     ],
     [
-      "75ca566b-3798-4d4c-8435-5cd468404556",
+      "156d71d8-0628-48fc-a8d3-9119edaea16a",
       "Relay_channel_6"
     ],
     [
-      "b7d73237-c72c-4196-ad30-482475eea7c5",
+      "b3fb12f2-e1dd-46f1-b171-496427727620",
       "Relay_channel_7"
     ],
     [
-      "346bcc97-9ec5-4a5a-a32a-dbef56a6cfeb",
+      "7972de82-c2ee-43f2-869d-6e44913e962f",
       "Relay_channel_8"
     ],
     [
-      "490a603a-d9f1-43c0-8f04-ff4ae19f62c1",
+      "cc0cf724-731b-46ad-bff2-1aa8b49f051c",
       "Relay_channel_9"
     ],
     [
-      "c391dc0f-4a16-4828-8a8f-9e0d2512037f",
+      "36d96da2-8e1e-44a2-9877-a01035a5b39f",
       "Relay_channel_10"
     ],
     [
-      "620c0e66-0d17-405e-9b72-731babd6fe79",
+      "e7feb240-38dc-4650-8871-5565c7400f0f",
       "Relay_channel_11"
     ],
     [
-      "5e356880-f412-44b4-be5a-4784cb45dcc5",
+      "fc509104-4107-4009-acb0-af71efa0b5ef",
       "Relay_channel_12"
-    ],
-    [
-      "7f6b5e1c-e425-4c8c-be36-43ea8322e8c6",
-      "Relay_channel_13"
-    ],
-    [
-      "6b6fb5fd-cb6e-4e80-9412-79d046790480",
-      "Relay_channel_14"
     ],
     [
       "182a3b16-3a61-4ea8-a3b9-206379fc6351",
