@@ -666,16 +666,20 @@
       {
         "filename": "cell_sim_relay_board.kicad_sch",
         "name": "cell_sim_relay_board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "368b9369-763a-4d55-afda-601efe72464d"
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "name": "Population"
+      }
+    ]
   },
   "sheets": [
     [
       "368b9369-763a-4d55-afda-601efe72464d",
-      "Root"
+      "cell_sim_relay_board"
     ],
     [
       "0afbe8f2-7d66-43fe-9f3b-d7627f160ffe",
