@@ -5,6 +5,710 @@
 	(uuid "ca1b135f-2556-4e84-8f81-b9f7d99fce5a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "LED_AKL:LED_0603"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_0603"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD LED, 0603, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode generic smd 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0603_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.905) (xy 0.254 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.921) (xy -0.254 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.921) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.397) (xy 1.27 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_0603_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.889) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_0603_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LED_0603_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Resistors:0603,4.7kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7kΩ"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0603"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C23162"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "11302490"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "0603WAF4701T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "4.7kΩ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power(Watts)" "100mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Overload Voltage (Max)" "75V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603,4.7kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603,4.7kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:FINDER-34.51"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -353,6 +1057,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 93.98 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1192e6a9-2929-4d07-8f3d-d7dc51e02022")
+	)
+	(junction
+		(at 93.98 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d20c523c-e5ff-46e7-913b-b376146d1a51")
+	)
+	(wire
+		(pts
+			(xy 93.98 73.66) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9a39c8-ca6e-4f78-92ee-1b6d94e2737d")
+	)
 	(wire
 		(pts
 			(xy 144.78 72.39) (xy 167.64 72.39)
@@ -375,7 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 148.59 87.63)
+			(xy 148.59 80.01) (xy 148.59 90.17)
 		)
 		(stroke
 			(width 0)
@@ -385,7 +1111,27 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 129.54 80.01)
+			(xy 102.87 73.66) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa11853-2904-4a4e-86e1-036fb78e1457")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 93.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69682407-49c2-4213-adba-0a43b3e70c6f")
+	)
+	(wire
+		(pts
+			(xy 83.82 73.66) (xy 93.98 73.66)
 		)
 		(stroke
 			(width 0)
@@ -395,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 148.59 87.63)
+			(xy 82.55 90.17) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -422,6 +1168,26 @@
 			(type default)
 		)
 		(uuid "87dcb318-1442-4884-bb36-1efc699989c3")
+	)
+	(wire
+		(pts
+			(xy 102.87 80.01) (xy 129.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42e6fa0-6b26-4cb9-9757-9233d575cfc1")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.17) (xy 148.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf57aeaf-8786-4062-bf33-272466db9b68")
 	)
 	(wire
 		(pts
@@ -456,7 +1222,7 @@
 	)
 	(hierarchical_label "cntrl_A1"
 		(shape input)
-		(at 102.87 80.01 180)
+		(at 83.82 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -467,7 +1233,7 @@
 	)
 	(hierarchical_label "cntrl_A2"
 		(shape input)
-		(at 102.87 87.63 180)
+		(at 82.55 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -564,19 +1330,19 @@
 			)
 		)
 		(pin "12"
-			(uuid "d58e8a40-5a97-46f8-b4ab-a7a36cdfcb77")
+			(uuid "fd81a46a-9d5c-40e5-b368-305c0c9c6c4e")
 		)
 		(pin "11"
-			(uuid "70691f92-52cf-4b82-8885-e16e0303e49e")
+			(uuid "9e6336f5-c6b4-4725-ae34-36c0869c1540")
 		)
 		(pin "14"
-			(uuid "32fffc33-a9d3-40cd-9813-e91342834dc8")
+			(uuid "5d2286df-6c1c-4fd8-96f8-459cb9507e92")
 		)
 		(pin "A2"
-			(uuid "d537a438-03ad-4316-a9f2-ceff08e3e4ec")
+			(uuid "a91bc5ca-2836-40c2-9be2-5e99a346abb1")
 		)
 		(pin "A1"
-			(uuid "4b00755e-07ee-45b4-b6d1-8c928813aab0")
+			(uuid "29bf51eb-cc3a-4013-a7d7-945df0b84512")
 		)
 		(instances
 			(project "12x_relay_board"
@@ -612,6 +1378,10 @@
 					(reference "K13")
 					(unit 1)
 				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/93fcdb3e-b71a-4282-a4ac-545bc30b7340"
+					(reference "K15")
+					(unit 1)
+				)
 				(path "/368b9369-763a-4d55-afda-601efe72464d/b7d73237-c72c-4196-ad30-482475eea7c5"
 					(reference "K7")
 					(unit 1)
@@ -634,6 +1404,468 @@
 				)
 				(path "/368b9369-763a-4d55-afda-601efe72464d/fea69a16-b9e6-47c1-babb-7c5d04175ea3"
 					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,4.7kΩ")
+		(at 93.98 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74c124a8-f478-4989-9f3a-222221f86977")
+		(property "Reference" "R1"
+			(at 91.44 85.0901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 93.98 85.09 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 95.758 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "11302490"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0603WAF4701T5E"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8a9a845-2845-45b9-9e63-d505d2e2e9f7")
+		)
+		(pin "2"
+			(uuid "231b143b-f36e-4fde-a0b0-506d5f0ca0c2")
+		)
+		(instances
+			(project "12x_relay_board"
+				(path "/368b9369-763a-4d55-afda-601efe72464d/0afbe8f2-7d66-43fe-9f3b-d7627f160ffe"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/346bcc97-9ec5-4a5a-a32a-dbef56a6cfeb"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/490a603a-d9f1-43c0-8f04-ff4ae19f62c1"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/5e356880-f412-44b4-be5a-4784cb45dcc5"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/620c0e66-0d17-405e-9b72-731babd6fe79"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/6b6fb5fd-cb6e-4e80-9412-79d046790480"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/75ca566b-3798-4d4c-8435-5cd468404556"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/7f6b5e1c-e425-4c8c-be36-43ea8322e8c6"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/93fcdb3e-b71a-4282-a4ac-545bc30b7340"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/b7d73237-c72c-4196-ad30-482475eea7c5"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/bc900a6b-3f21-4538-809a-63c920cb2141"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/c391dc0f-4a16-4828-8a8f-9e0d2512037f"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/d6017e09-f0ce-4c83-b521-06c8d79f2e42"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/f8de1ae8-c9cc-4127-8713-2c7891d1d8f9"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/fea69a16-b9e6-47c1-babb-7c5d04175ea3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_AKL:LED_0603")
+		(at 93.98 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd3f3feb-84c6-469d-801c-3d6461ec872d")
+		(property "Reference" "LED1"
+			(at 88.9 78.7401 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_0603"
+			(at 88.9 76.2001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD_AKL:LED_0603_1608Metric"
+			(at 93.98 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD LED, 0603, Alternate KiCad Library"
+			(at 93.98 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e068590-2c9b-4f53-b8cd-44544d93693d")
+		)
+		(pin "1"
+			(uuid "30e5768a-551e-4a6e-a1a8-6dc42a35c854")
+		)
+		(instances
+			(project "12x_relay_board"
+				(path "/368b9369-763a-4d55-afda-601efe72464d/0afbe8f2-7d66-43fe-9f3b-d7627f160ffe"
+					(reference "LED1")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/346bcc97-9ec5-4a5a-a32a-dbef56a6cfeb"
+					(reference "LED8")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/490a603a-d9f1-43c0-8f04-ff4ae19f62c1"
+					(reference "LED9")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/5e356880-f412-44b4-be5a-4784cb45dcc5"
+					(reference "LED12")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/620c0e66-0d17-405e-9b72-731babd6fe79"
+					(reference "LED11")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/6b6fb5fd-cb6e-4e80-9412-79d046790480"
+					(reference "LED14")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/75ca566b-3798-4d4c-8435-5cd468404556"
+					(reference "LED6")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/7f6b5e1c-e425-4c8c-be36-43ea8322e8c6"
+					(reference "LED13")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/93fcdb3e-b71a-4282-a4ac-545bc30b7340"
+					(reference "LED15")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/b7d73237-c72c-4196-ad30-482475eea7c5"
+					(reference "LED7")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/bc900a6b-3f21-4538-809a-63c920cb2141"
+					(reference "LED4")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/c391dc0f-4a16-4828-8a8f-9e0d2512037f"
+					(reference "LED10")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/d6017e09-f0ce-4c83-b521-06c8d79f2e42"
+					(reference "LED2")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/f8de1ae8-c9cc-4127-8713-2c7891d1d8f9"
+					(reference "LED3")
+					(unit 1)
+				)
+				(path "/368b9369-763a-4d55-afda-601efe72464d/fea69a16-b9e6-47c1-babb-7c5d04175ea3"
+					(reference "LED5")
 					(unit 1)
 				)
 			)

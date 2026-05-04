@@ -669,7 +669,7 @@
         "uuid": "368b9369-763a-4d55-afda-601efe72464d"
       }
     ],
-    "used_designators": "K2-14,J1,J5-8",
+    "used_designators": "#PWR22-23,#PWR39,#PWR42-44,#PWR49-50,#PWR212,#PWR222,U3-4,U7,JP1,R15-16,R27-31,J4,J9,D2,C1,C5-8,C13-16,SW1-3,RZ1-2",
     "variants": []
   },
   "sheets": [
@@ -734,6 +734,10 @@
       "Relay_channel_14"
     ],
     [
+      "93fcdb3e-b71a-4282-a4ac-545bc30b7340",
+      "Relay_channel_15"
+    ],
+    [
       "182a3b16-3a61-4ea8-a3b9-206379fc6351",
       "Relay_driver"
     ],
@@ -742,8 +746,20 @@
       "Relay_driver1"
     ],
     [
+      "c1e9bb71-25ed-4305-a474-c5056f83c95f",
+      "Untitled Sheet"
+    ],
+    [
       "17aff565-034a-41da-9b25-a8b4463887d2",
       "conrol"
+    ],
+    [
+      "b44f476f-6153-44de-b66c-6bfbb0b9b010",
+      "ETH"
+    ],
+    [
+      "0310d684-e4b4-4ad3-936c-5548b0c896bb",
+      "Power"
     ]
   ],
   "text_variables": {},
